@@ -1,9 +1,9 @@
 <template>
-  <newGreeting/>
+  <newGreeting />
 </template>
 
 <script>
-import newGreeting from './components/greeting.vue'
+import newGreeting from './components/Greeting.vue'
 export default {
   name: 'App',
   components: {
