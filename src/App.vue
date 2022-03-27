@@ -1,6 +1,8 @@
 <template>
   <p>Hey!</p>
-  <newGreeting />
+  <button type="button" @click="age++">Update Age</button>
+  <newGreeting :age="age"/>
+
   <newUser :age="age"/>
 </template>
 
